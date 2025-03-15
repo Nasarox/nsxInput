@@ -14,5 +14,5 @@ exports['nsxInput']:viewInput(name, label, input, help, resultInput, cancelInput
 - **`input`** **[NECESSAIRE]** Le texte qui va servir d'exemple dans votre zone d'input (placeholder). Il peut être réglé sur "nil" si vous souhaitez le désactiver.
 - **`help`** **[NECESSAIRE]** La Description de votre dialogBox
 - **`submitFunc()`** **[NECESSAIRE]** La fonction lorsque vous validez le texte (touche ENTREE)
-- **`cancelFunc()`** [OPTIONNEL] La fonction lorsque vous annulez votre texte (touche ECHAP)
-- **`textarea`** [OPTIONNEL] [BOOLEAN] Si = à true, alors zone de texte étirable (long textes). Si = false, alors orienté textes courts.
+- **`cancelFunc()`** **[OPTIONNEL]** La fonction lorsque vous annulez votre texte (touche ECHAP)
+- **`textarea`** **[OPTIONNEL] [BOOLEAN]** Si = à true, alors zone de texte étirable (long textes). Si = false, alors orienté textes courts.
